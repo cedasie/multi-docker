@@ -20,4 +20,4 @@ after_success:
   - docker push cedasia/multi-client
   - docker push cedasia/multi-nginx
   - docker push cedasia/multi-server
-  - docker push cedasia/multi-workder
+  - docker push cedasia/multi-worker
