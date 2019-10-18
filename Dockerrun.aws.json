@@ -5,5 +5,9 @@
     "image": "cedasia/multi-docker",
     "hostname": "client",
     "essential": false
+  }, {
+    "name": "server",
+    "client": "cedasia/multi-docker",
+    "hostname": ""
   }]
 }
